@@ -2,30 +2,6 @@
 
 using namespace std;
 
-/*
-int main(int argc, char *argv[]) {
-    int numA = 5;
-    int numB = 8;
-
-    int *ptrNumA = &numA;
-    int *ptrNumB = &numB;
-
-    cout << "Antes:" << endl;
-    cout << "Num A: " << *ptrNumA;
-    cout << " Num B: " << *ptrNumB;
-    cout << "\n----- x -----" << endl;
-
-    *ptrNumA = 26;
-    *ptrNumB = -86;
-
-    cout << "\nDespues:" << endl;
-    cout << " Num A: " << *ptrNumA;
-    cout << " Num B: " << *ptrNumB;
-
-    return 0;
-}
-*/
-
 void ordenarArreglo(int *array, int dimensionArray) {
     bool isOrder = false;
 
