@@ -8,7 +8,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 find_package( OpenCV REQUIRED )
 include_directories( ${OpenCV_INCLUDE_DIRS} )
 
-add_executable(opencvtest src/main.cpp)
+add_executable(opencvtest src/Herencia.cpp)
 
 target_link_libraries( opencvtest ${OpenCV_LIBS} )
 
